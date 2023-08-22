@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0041A3</color>
+    <color name="colorPrimaryDark">#0041A3</color>
+    <color name="colorAccent">#66A3FF</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="btn_color">#00c68a</color>
+    <color name="border_card_view">#BECADA</color>
+    <color name="Gray">#E4E4E4</color>
+    <color name="Red">#FF7373</color>
+    <color name="BackgroundGray">#ffff</color>
+    <color name="background_gray">#E4E4E4</color>
+    <color name="blue">#0041A3</color>
+    <color name="pink">#FF00FB</color>
+    <color name="light_blue">#66A3FF</color>
+</resources>

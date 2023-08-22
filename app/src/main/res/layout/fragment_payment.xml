@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.payment.PaymentsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/background_gray"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_background"
+            android:foreground="@drawable/new_foreground"
+            android:gravity="center"
+            android:padding="24dp"
+            android:text="Payment Details"
+            android:textColor="@color/white"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:layout_marginBottom="80dp"
+            android:fitsSystemWindows="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="12dp"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:backgroundTint="@color/BackgroundGray"
+                    android:clickable="true"
+                    android:elevation="16dp"
+                    android:focusable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:cardCornerRadius="24dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:orientation="vertical"
+                        android:padding="24dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5"
+                            android:fontFamily="@font/nunito_sans"
+                            android:gravity="top"
+                            android:text="Fee Structure"
+                            android:textColor="@color/black"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="4dp"
+                            android:background="@color/white" />
+
+                        <TextView
+                            android:id="@+id/tv_head1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="12dp"
+                            android:fontFamily="@font/nunito_sans"
+                            android:text=""
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/tv_head2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="12dp"
+                            android:fontFamily="@font/nunito_sans"
+                            android:text=""
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/tv_head3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="12dp"
+                            android:fontFamily="@font/nunito_sans"
+                            android:text=""
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/tv_head4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="12dp"
+                            android:fontFamily="@font/nunito_sans"
+                            android:text=""
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/tv_head5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="12dp"
+                            android:fontFamily="@font/nunito_sans"
+                            android:text=""
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/tv_head15"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="12dp"
+                            android:fontFamily="@font/nunito_sans"
+                            android:text=""
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/tv_total_amount"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="12dp"
+                            android:fontFamily="@font/nunito_sans"
+                            android:text=""
+                            android:textStyle="bold"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:backgroundTint="@color/BackgroundGray"
+                    android:clickable="true"
+                    android:elevation="16dp"
+                    android:focusable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:cardCornerRadius="24dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:orientation="vertical"
+                        android:padding="24dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5"
+                            android:fontFamily="@font/nunito_sans"
+                            android:gravity="top"
+                            android:text="Paid Amount"
+                            android:textColor="@color/black"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="4dp"
+                            android:background="@color/white" />
+
+                        <TextView
+                            android:id="@+id/tv_paid_amount"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="12dp"
+                            android:fontFamily="@font/nunito_sans"
+                            android:text=""
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:backgroundTint="@color/BackgroundGray"
+                    android:clickable="true"
+                    android:elevation="16dp"
+                    android:focusable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:cardCornerRadius="24dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:orientation="vertical"
+                        android:padding="24dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5"
+                            android:fontFamily="@font/nunito_sans"
+                            android:gravity="top"
+                            android:text="Pending Amount"
+                            android:textColor="@color/black"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="4dp"
+                            android:background="@color/white" />
+
+                        <TextView
+                            android:id="@+id/tv_pending_amount"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="12dp"
+                            android:fontFamily="@font/nunito_sans"
+                            android:text=""
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <com.ncorti.slidetoact.SlideToActView
+                    android:id="@+id/btn_pay_now"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginBottom="4dp"
+                    android:elevation="2dp"
+                    app:area_margin="8dp"
+                    app:animation_duration="400"
+                    app:outer_color="@color/btn_color"
+                    app:inner_color="@color/white"
+                    app:text_size="18sp"
+                    app:slider_locked="false"
+                    app:bump_vibration="200"
+                    app:text="Swipe to pay" />
+
+<!--                <LinearLayout-->
+<!--                    android:id="@+id/btn_pay_now"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="30dp"-->
+<!--                    android:layout_marginTop="16dp"-->
+<!--                    android:layout_marginEnd="30dp"-->
+<!--                    android:background="@drawable/round_pay_brn"-->
+<!--                    android:orientation="horizontal"-->
+<!--                    android:padding="12dp"-->
+<!--                    android:weightSum="1">-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="0dp"-->
+<!--                        android:layout_height="32dp"-->
+<!--                        android:layout_weight="0.2"-->
+<!--                        android:src="@drawable/baseline_lock_24" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="0dp"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:layout_weight="0.8"-->
+<!--                        android:paddingStart="72dp"-->
+<!--                        android:text="Pay Now"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:textSize="22sp" />-->
+
+
+<!--                </LinearLayout>-->
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>
